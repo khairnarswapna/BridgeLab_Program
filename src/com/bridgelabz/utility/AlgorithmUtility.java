@@ -230,10 +230,10 @@ public class AlgorithmUtility
 
 	/**
 	 * Purpose: to finding magic number
-	 * Identifier:MagicNumber
+	 * 
 	 * @param range command line args taken
 	 */
-	public static void magicNumber(int range) 
+	/*public static void magicNumber(int range) 
 	{
 		Scanner scanner = new Scanner(System.in);
 		int li = 0;
@@ -264,7 +264,7 @@ public class AlgorithmUtility
 		System.out.println("Your number is :" + mi);
 		scanner.close();
 
-	}
+	}*/
 
 	/**
 	 * Purpose: method for printing integer array
@@ -454,7 +454,8 @@ public class AlgorithmUtility
 	 * @param decToBinary decimal number input from program
 	 * @return returns swap binary numbers
 	 */
-	public int SwapNibbles(int decToBinary) {
+	public int SwapNibbles(int decToBinary) 
+	{
 		return (((decToBinary & 0x0F) << 4) | ((decToBinary & 0xF0) >> 4));
 
 	}

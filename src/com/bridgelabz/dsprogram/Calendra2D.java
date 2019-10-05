@@ -4,7 +4,13 @@ public class Calendra2D
 {
 	 
 	static	int arr[][]=new int[6][7];   
-
+  
+	/**
+   * 
+   * @param month
+   * @param year
+   * @return
+   */
  
 		public static int day(int month, int year) 
 		{

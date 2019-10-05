@@ -1,5 +1,6 @@
 /**
  * purpose :implementation of 2D primeNumber
+
  */
 package com.bridgelabz.dsprogram;
 import com.bridgelabz.utility.DSutility;
@@ -50,23 +51,23 @@ public class TwoDPrimeNumber
 		}
 
 		// printing prime series
-		int r=0;
-		int k=100;
+		//int r=0;
+		//int k=100;
 		 
 		for (int i = 0; i < primeNum.length; i++) 
 		{
-			System.out.println("prime series "+ r+" - "+k);
+			//System.out.println("prime series "+ r+" - "+k);
 		 
 			for (int j = 0; j < primeNum[i].length; j++)
 				
 				System.out.print(primeNum[i][j] + " ");
 			 
 			
-			System.out.println();
-			System.out.println("-----------------------------------------------------------------------");
+		 System.out.println();
+		//	System.out.println("-----------------------------------------------------------------------");
 			 
-			r=k+1;
-			k+=100;
+		//	r=k+1;
+		//	k+=100;
 		}
 
 	}

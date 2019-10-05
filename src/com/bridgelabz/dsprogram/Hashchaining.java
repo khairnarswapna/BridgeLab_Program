@@ -40,7 +40,7 @@ public class Hashchaining
 			hashmap.add(arr[i], arr[i]);
 		}
 		
-		hashmap.show(); //printing the hashmap
+		hashmap.display(); //printing the hashmap
 		
 		System.out.println("\nEnter key to search: ");
 		Scanner scanner = new Scanner(System.in);
@@ -49,14 +49,14 @@ public class Hashchaining
 	
 		if (hashmap.get(key) != null) 
 		{
-			hashmap.remove(key);
+			hashmap.remove(key); 
 		} 
 		else 
 		{
 			hashmap.add(key, key);
 		}
 		scanner.close();
-		hashmap.show();
+		hashmap.display();
 		
 		try 
 		{

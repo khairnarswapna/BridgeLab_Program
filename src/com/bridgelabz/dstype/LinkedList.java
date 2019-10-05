@@ -2,6 +2,7 @@
  * generics type of linkedlist function
 
 
+
  */
 package com.bridgelabz.dstype;
 
@@ -70,7 +71,7 @@ public class LinkedList<G>
 			newnode.next = null; 
 			
 			newnode.next = head;
-			head = newnode;
+			head = newnode; //head become head
 			size++;
 		}
 

@@ -1,12 +1,7 @@
-/**
- * Purpose: Node class which can be implemented inside hash map
 
- * 
- *  @author  Rishikesh Mhatre
- *  @version 1.0
- *  @since   13-09-2019
- *
- * @param <K>	key type
+/*hashNode*/
+ 
+ /* @param <K>	key type
  * @param <V>	value type
  */
 

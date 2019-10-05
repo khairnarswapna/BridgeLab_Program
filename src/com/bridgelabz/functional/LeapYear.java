@@ -19,10 +19,10 @@ public class LeapYear {
 		Scanner scanner=new Scanner(System.in);
 		FunctionalUtility utility=new FunctionalUtility();
 		int year=scanner.nextInt();
-		boolean valid;
+		boolean valid=true;
 		if(year>=1000 && year<10000)
 		{
-			valid=Utility.leapYear(year);
+			valid=utility.isLeapYear(year);
 			if(valid==true)
 			{
 				System.out.println("leap year");

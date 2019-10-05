@@ -73,8 +73,8 @@ public class HashMap<K, V> {
 		while (head != null) 
 		{
 			if (head.key.equals(key))
-				return head.value;
-			head = head.next;
+				return head.value; //
+			head = head.next;  //traversing linked list
 		}
 
 		// If key not found
@@ -178,7 +178,7 @@ public class HashMap<K, V> {
 	/**
 	 * Purpose: this method will show all the array list which contains the data
 	 */
-	public void show() 
+	public void display() 
 	{
 		// System.out.println(chainArray.get(3));
 		for (int i = 0; i < arrList.size(); i++) {

@@ -13,9 +13,8 @@ public class DQueue<T>
 
 	/**
 	 * Purpose: constructor of class 
-	 * @param size size of deque is specified
 	 */
-	public DQueue(int size) 
+	public DQueue() 
 	{
 		deque = new Object[size];
 		front = -1;
@@ -194,5 +193,20 @@ public class DQueue<T>
 			System.out.println(" Underflow rear");
 		}
 		return  (T) deque[rear];      //type casttype
+	
 	}  
+    public void display()
+    {
+    	if(front==rear)
+    	{
+    		System.out.println("empty");
+    	}
+    	else
+    	{
+    		for(int i=front;i<rear;i++)
+    		{
+    			System.out.println(deque[i]+" ");
+    		}
+    	}
+    }
 }

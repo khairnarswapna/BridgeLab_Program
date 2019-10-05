@@ -48,15 +48,17 @@ public class FunctionalUtility
 	 * 
 	 */
 	
-	public void isLeapYear(int year) 
+	public boolean isLeapYear(int year) 
 	{
-		if (year % 400 == 0 && year % 100 != 0||year % 4 == 0 ) 
+		if (year % 400 == 0 || year % 100 != 0 &&year % 4 == 0 ) 
 		{
-			 System.out.println("year is leap year");
+			 //System.out.println("year is leap year");
+			return true;
 		} 
 		else 
 		{
-			 System.out.println("year is not leap year");
+			// System.out.println("year is not leap year");
+			return false;
 		}
 
 	}

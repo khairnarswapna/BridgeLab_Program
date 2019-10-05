@@ -71,23 +71,23 @@ static int[][] primeAnagram = new int[10][];
 			c2 = 0;
 		}
 
-		/*// printing array
-		for (int i = 0; i < primeAnagramNum .length; i++) 
+		// printing array
+		/*for (int i = 0; i < primeAnagramNum .length; i++) 
 		{
 			for (int j = 0; j < primeAnagramNum [i].length; j++)
 				System.out.print(primeAnagramNum [i][j] + " ");
 			System.out.println();
-		}
-		*/
+		}*/
 		
 		
 		
-		int r=0;
-		int k=100;
+		
+		//int r=0;
+		//int k=100;
 		//System.out.println(" "+k);
 		for (int i = 0; i < primeAnagram.length; i++) 
 		{
-			System.out.println("primeAnagramNum series "+ r+" - "+k);
+			//System.out.println("primeAnagramNum series "+ r+" - "+k);
 		 
 			for (int j = 0; j < primeAnagram[i].length; j++)
 				
@@ -95,10 +95,10 @@ static int[][] primeAnagram = new int[10][];
 			 
 			
 			System.out.println();
-			System.out.println("-----------------------------------------------------------------------");
+			//System.out.println("-----------------------------------------------------------------------");
 			 
-			r=k+1;
-			k+=100;
+			//r=k+1;
+			//k+=100;
 		}
 	}
 
