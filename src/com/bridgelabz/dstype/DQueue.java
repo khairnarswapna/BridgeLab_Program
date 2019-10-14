@@ -148,7 +148,7 @@ public class DQueue<T>
 		return ((front == 0 && rear == size - 1) || front == rear + 1);
 	}
 
-
+ 
 	/**
 	 * Purpose: checks deque is empty or not
 	 * @return returns true if empty of deque else returns false

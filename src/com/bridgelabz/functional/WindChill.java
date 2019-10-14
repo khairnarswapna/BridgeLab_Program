@@ -11,7 +11,8 @@ import com.bridgelabz.utility.FunctionalUtility;
 public class WindChill 
 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		FunctionalUtility utility = new FunctionalUtility();
 
 		double windspeed, temperatureInFahrenheit = 0, windChill;

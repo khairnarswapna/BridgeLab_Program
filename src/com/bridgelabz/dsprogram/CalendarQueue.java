@@ -1,6 +1,7 @@
 /******************************************************************************
  *  Purpose:  using Queue implementation of calendar 
 
+
  *  @author  swapna khairnar
  *    
  *******************************************************************************/
@@ -56,7 +57,7 @@ public class CalendarQueue
  
 		int [] days1= {31,28,31,30,31,30,31,31,30,31,30,31};
 		
-	    System.out.println("--");
+	   // System.out.println("--");
 		for(int i=0;i<12;i++) 
 		{
 			list.enqueue(days1[i]);
